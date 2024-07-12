@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basketball scoreboard - Solo project №1</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="home_container">
+                <h3>HOME</h3>
+                    <div class="score_home">
+                        <h2 id="home-score">0</h2>
+                    </div>
+                    <div class="buttons_1">
+                        <button id="home-score-btn-1" onclick="increaseHomeScoreOne()">+ 1</button>
+                        <button id="home-score-btn-2" onclick="increaseHomeScoreTwo()">+ 2</button>
+                        <button id="home-score-btn-3" onclick="increaseHomeScoreThree()">+ 3</button>
+                    </div>
+            </div>
+            <div class="guest_container">
+                <h3>GUEST</h3>
+                    <div class="score_guest">
+                        <h2 id="guest-score">0</h2>
+                    </div>
+                    <div class="buttons_2">
+                        <button id="guest-score-btn-1" onclick="increaseGuestScoreOne()">+ 1</button>
+                        <button id="guest-score-btn-2" onclick="increaseGuestScoreTwo()">+ 2</button>
+                        <button id="guest-score-btn-3" onclick="increaseGuestScoreThree()">+ 3</button>
+                    </div>
+            </div>
+        </div>
+        <script src="project2.js"></script>
+    </body>
+</html>
